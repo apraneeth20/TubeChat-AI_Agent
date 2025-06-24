@@ -1,6 +1,6 @@
-# YtChat – YouTube Video AI AGENT
+# YouTube Video AI AGENT 
 
-YtChat lets you chat with an AI about any YouTube video. It uses two Gemini AIs: one for analyzing video transcripts, and one for summarizing answers for users. The backend uses PostgreSQL for data storage and BrightData for transcript scraping. The frontend is built with React and Vite.
+YtChat lets you chat with an AI about any YouTube video. Just paste a YouTube video URL and your question—the app will analyze the video for you. When you submit a URL, the backend scrapes the transcript using Bright Data and stores transcript chunks in NeonDB (PostgreSQL). If the video was already scraped, it fetches the transcript directly from NeonDB for faster responses. It uses two Gemini AIs: one for analyzing video transcripts, and one for summarizing answers for users. The frontend is built with React and Vite.
 
 ---
 
@@ -30,8 +30,8 @@ YtChat lets you chat with an AI about any YouTube video. It uses two Gemini AIs:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/YtChat.git
-cd YtChat-AiAgent-main
+git clone https://github.com/apraneeth20/TubeChat-AI_Agent.git
+cd TubeChat-AI_Agent
 ```
 
 ### 2. Set up environment variables
